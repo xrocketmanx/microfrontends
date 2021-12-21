@@ -1,7 +1,7 @@
 const start = async () => {
   const { mount } = await import('./bootstrap');
 
-  mount(document.getElementById('marketing-dev-root'), {
+  mount(document.getElementById('auth-dev-root'), {
     shouldUseDefaultHistory: true
   });
 };
